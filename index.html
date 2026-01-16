@@ -31,33 +31,43 @@ footer {
   color: #888;
   font-size: 0.9em;
 }
+#language-selector {
+  margin-bottom: 20px;
+  padding: 8px;
+  font-size: 1em;
+}
 </style>
 </head>
 
 <body>
 <div class="container">
 
+<!-- Language Dropdown -->
+<select id="language-selector">
+  <option value="en" selected>English</option>
+  <option value="de">Deutsch</option>
+  <option value="fr">Français</option>
+  <option value="nl">Nederlands</option>
+  <option value="it">Italiano</option>
+  <option value="es">Español</option>
+</select>
+
+<!-- Privacy Policy Content -->
+<div id="policy-content">
+
+<!-- English Content -->
+<div class="lang" id="en">
 <h1>Privacy Policy</h1>
 <p><strong>Last updated:</strong> December 2025</p>
-
-<p>
-ClariaDay ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the ClariaDay mobile application.
-</p>
-
+<p>ClariaDay ("we", "our", or "us") respects your privacy. This Privacy Policy explains how we collect, use, and protect your information when you use the ClariaDay mobile application.</p>
 <h2>1. Information We Collect</h2>
-<p>We collect the following personal information:</p>
 <ul>
   <li>Name</li>
   <li>Email address</li>
   <li>Password (used solely for account authentication)</li>
 </ul>
-<p>
-Passwords are securely stored using industry-standard encryption and are never visible to us in plain text.
-ClariaDay does not collect sensitive personal data.
-</p>
-
+<p>Passwords are securely stored using industry-standard encryption and are never visible to us in plain text. ClariaDay does not collect sensitive personal data.</p>
 <h2>2. How We Use Your Information</h2>
-<p>Your information is used only to:</p>
 <ul>
   <li>Create and manage user accounts</li>
   <li>Provide app functionality and customer support</li>
@@ -65,45 +75,75 @@ ClariaDay does not collect sensitive personal data.
   <li>Communicate important service-related updates</li>
   <li>Maintain app security and performance</li>
 </ul>
-
 <h2>3. Third-Party Services</h2>
-<p>
-ClariaDay uses Apple’s App Store and In-App Purchase system to process subscriptions and payments.
-We do not use third-party analytics services that collect personal data.
-</p>
-
+<p>ClariaDay uses Apple’s App Store and In-App Purchase system to process subscriptions and payments. We do not use third-party analytics services that collect personal data.</p>
 <h2>4. Data Retention</h2>
-<p>
-We retain personal data only for as long as necessary to provide the service or to comply with legal obligations.
-Users may request deletion of their account and associated data at any time.
-</p>
-
+<p>We retain personal data only for as long as necessary to provide the service or to comply with legal obligations. Users may request deletion of their account and associated data at any time.</p>
 <h2>5. Data Security</h2>
-<p>
-We implement reasonable technical and organizational measures to protect your personal information, including secure storage, encryption, and restricted access, to prevent unauthorized access, disclosure, or misuse.
-</p>
-
+<p>We implement reasonable technical and organizational measures to protect your personal information, including secure storage, encryption, and restricted access, to prevent unauthorized access, disclosure, or misuse.</p>
 <h2>6. Data Sharing</h2>
-<p>
-ClariaDay does not sell, rent, or trade your personal data to third parties.
-Your data is used solely to operate and improve the app experience.
-</p>
-
+<p>ClariaDay does not sell, rent, or trade your personal data to third parties. Your data is used solely to operate and improve the app experience.</p>
 <h2>7. Your Rights (GDPR – EU Users)</h2>
-<p>
-If you are located in the European Economic Area (EEA), you have the right to access, correct, or delete your personal data, as well as to object to or restrict certain processing activities.
-</p>
-
+<p>If you are located in the European Economic Area (EEA), you have the right to access, correct, or delete your personal data, as well as to object to or restrict certain processing activities.</p>
 <h2>8. Contact Us</h2>
-<p>
-If you have questions about this Privacy Policy or wish to request data deletion, please contact us at:
-</p>
+<p>If you have questions about this Privacy Policy or wish to request data deletion, please contact us at:</p>
 <p><strong>Email:</strong> an@pt.lu</p>
+</div>
+
+<!-- German Content -->
+<div class="lang" id="de" style="display:none;">
+<h1>Datenschutzrichtlinie</h1>
+<p><strong>Zuletzt aktualisiert:</strong> Dezember 2025</p>
+<p>ClariaDay („wir“, „uns“ oder „unser“) respektiert Ihre Privatsphäre. Diese Datenschutzrichtlinie erklärt, wie wir Ihre Informationen sammeln, verwenden und schützen, wenn Sie die ClariaDay-App verwenden.</p>
+<h2>1. Gesammelte Informationen</h2>
+<ul>
+  <li>Name</li>
+  <li>E-Mail-Adresse</li>
+  <li>Passwort (ausschließlich zur Konto-Authentifizierung verwendet)</li>
+</ul>
+<p>Passwörter werden sicher verschlüsselt gespeichert. ClariaDay sammelt keine sensiblen persönlichen Daten.</p>
+<h2>2. Verwendung Ihrer Informationen</h2>
+<ul>
+  <li>Benutzerkonten erstellen und verwalten</li>
+  <li>App-Funktionalität und Kundensupport bereitstellen</li>
+  <li>Premium-Abonnements ermöglichen</li>
+  <li>Wichtige Updates kommunizieren</li>
+  <li>App-Sicherheit und Leistung gewährleisten</li>
+</ul>
+<h2>3. Dienste von Drittanbietern</h2>
+<p>ClariaDay verwendet Apples App Store und In-App-Kauf-System zur Verarbeitung von Abonnements und Zahlungen. Wir verwenden keine Drittanbieter-Analyse-Dienste.</p>
+<h2>4. Aufbewahrung von Daten</h2>
+<p>Persönliche Daten werden nur so lange gespeichert, wie es zur Bereitstellung des Dienstes oder zur Erfüllung gesetzlicher Verpflichtungen erforderlich ist. Nutzer können jederzeit Löschung beantragen.</p>
+<h2>5. Datensicherheit</h2>
+<p>Wir setzen angemessene technische und organisatorische Maßnahmen ein, um Ihre Daten zu schützen.</p>
+<h2>6. Datenweitergabe</h2>
+<p>ClariaDay verkauft, vermietet oder handelt keine persönlichen Daten. Ihre Daten werden nur zur App-Betrieb und Verbesserung verwendet.</p>
+<h2>7. Ihre Rechte (DSGVO – EU-Benutzer)</h2>
+<p>Im EWR haben Sie das Recht auf Zugriff, Korrektur oder Löschung Ihrer Daten sowie Widerspruch gegen bestimmte Verarbeitungsvorgänge.</p>
+<h2>8. Kontakt</h2>
+<p>Bei Fragen oder Datenlöschungsanfragen kontaktieren Sie uns bitte unter:</p>
+<p><strong>E-Mail:</strong> an@pt.lu</p>
+</div>
+
+<!-- Other languages (fr, nl, it, es) would go here, with style="display:none;" -->
 
 <footer>
 © 2025 ClariaDay
 </footer>
 
 </div>
+
+<script>
+// Language switcher
+const selector = document.getElementById('language-selector');
+const langs = document.querySelectorAll('.lang');
+
+selector.addEventListener('change', function() {
+  langs.forEach(l => l.style.display = 'none'); // hide all
+  const selected = document.getElementById(this.value);
+  if (selected) selected.style.display = 'block'; // show chosen
+});
+</script>
+
 </body>
 </html>
